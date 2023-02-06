@@ -1,9 +1,8 @@
-using Newtonsoft.Json.Linq;
 using Newtonsoft.Json;
-using System.Net.Http;
-using System.Reflection;
 using System.Text;
 using PangeaAssignmentTests.Models;
+using PangeaAssignment.Models;
+using System.Net;
 
 namespace PangeaAssignmentTests
 {
@@ -22,14 +21,19 @@ namespace PangeaAssignmentTests
             var stringContent = new StringContent(request, Encoding.UTF8, "application/json");
 
             var response1 = await Client.PostAsync($"{LeftURL}", stringContent);
+            Assert.AreEqual(response1.StatusCode, HttpStatusCode.OK);
+
             var response2 = await Client.PostAsync($"{RightURL}", stringContent);
+
+            Assert.AreEqual(response2.StatusCode, HttpStatusCode.OK);
+
             var response3 = await Client.GetAsync($"{CompareURL}");
 
-            string content1 = await response1.Content.ReadAsStringAsync();
-            string content2 = await response2.Content.ReadAsStringAsync();
             string content3 = await response3.Content.ReadAsStringAsync();
 
-            Assert.AreEqual("they are equal", content3);
+            var resultModel = JsonConvert.DeserializeObject<ResultModel>(content3);
+
+            Assert.AreEqual("they are equal", resultModel.ResultMessage);
         }
 
         [TestMethod]
@@ -42,14 +46,17 @@ namespace PangeaAssignmentTests
             var stringContent2 = new StringContent(request2, Encoding.UTF8, "application/json");
 
             var response1 = await Client.PostAsync($"{LeftURL}", stringContent1);
+            Assert.AreEqual(response1.StatusCode, HttpStatusCode.OK);
+
             var response2 = await Client.PostAsync($"{RightURL}", stringContent2);
+            Assert.AreEqual(response2.StatusCode, HttpStatusCode.OK);
+
             var response3 = await Client.GetAsync($"{CompareURL}");
 
-            string content1 = await response1.Content.ReadAsStringAsync();
-            string content2 = await response2.Content.ReadAsStringAsync();
             string content3 = await response3.Content.ReadAsStringAsync();
+            var resultModel = JsonConvert.DeserializeObject<ResultModel> (content3);
 
-            Assert.AreEqual("they are different in size", content3);
+            Assert.AreEqual("they are different in size", resultModel.ResultMessage);
         }
 
         [TestMethod]
@@ -62,14 +69,17 @@ namespace PangeaAssignmentTests
             var stringContent2 = new StringContent(request2, Encoding.UTF8, "application/json");
 
             var response1 = await Client.PostAsync($"{LeftURL}", stringContent1);
+            Assert.AreEqual(response1.StatusCode, HttpStatusCode.OK);
+
             var response2 = await Client.PostAsync($"{RightURL}", stringContent2);
+            Assert.AreEqual (response2.StatusCode, HttpStatusCode.OK);
+
             var response3 = await Client.GetAsync($"{CompareURL}");
 
-            string content1 = await response1.Content.ReadAsStringAsync();
-            string content2 = await response2.Content.ReadAsStringAsync();
             string content3 = await response3.Content.ReadAsStringAsync();
+            var resultModel = JsonConvert.DeserializeObject<ResultModel>(content3);
 
-            Assert.AreEqual("offset: testvalue1, size :1", content3);
+            Assert.AreEqual("offset: testvalue1, size :1", resultModel.ResultMessage);
         }
 
         [TestMethod]
@@ -110,6 +120,18 @@ namespace PangeaAssignmentTests
 
             Assert.AreEqual("Incorect base64 value", contentModel1.Message);
             Assert.AreEqual("Incorect base64 value", contentModel2.Message);
+        }
+
+        [TestMethod]
+        public async Task Check_If_First_Or_Second_Endpoint_Is_Null()
+        {
+            var response = await Client.GetAsync($"{CompareURL}");
+
+            string content = await response.Content.ReadAsStringAsync();
+
+            var contentModel = JsonConvert.DeserializeObject<ResponseContentModel>(content);
+
+            Assert.AreEqual("Value cannot be null. (Parameter 'Left or Right is Null')", contentModel.Message);
         }
     }
 }

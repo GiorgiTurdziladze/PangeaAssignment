@@ -30,12 +30,13 @@ namespace PangeaAssignment.Controllers
             var jsonInput = _decoderService.Base64Decode(input);
 
             InputModel? model;
+
             var result = _validatorHelper.TryConvertToJson(jsonInput, out model);
 
             if (!result || model == null)
                 throw new ArgumentException("Provided Input is not valid JSON format");
 
-            _validatorHelper.ValidateInput(model);
+            _validatorHelper.ValidateInput(model); 
 
             _inputStorage.Input1 = model;
 
@@ -48,6 +49,7 @@ namespace PangeaAssignment.Controllers
             var jsonInput = _decoderService.Base64Decode(input);
 
             InputModel? model;
+
             var result = _validatorHelper.TryConvertToJson(jsonInput, out model);
 
             if (!result || model == null)
@@ -65,8 +67,12 @@ namespace PangeaAssignment.Controllers
         {
             var resultModel = new ResultModel();
 
+            _validatorHelper.CheckIfInputsAreNull(_inputStorage.Input1);
+            _validatorHelper.CheckIfInputsAreNull(_inputStorage.Input2);
+
             var test1 = _inputStorage.Input1;
             var test2 = _inputStorage.Input2;
+
 
             var result = "";
 

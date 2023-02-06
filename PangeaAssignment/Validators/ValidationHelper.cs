@@ -27,5 +27,13 @@ namespace PangeaAssignment.Validators
                 throw new ArgumentNullException("Input Can not be null");
             }
         }
+
+        public void CheckIfInputsAreNull(InputModel model)
+        {
+            if (model == null)
+            {
+                throw new ArgumentNullException("Left or Right is Null");
+            }
+        }
     }
 }

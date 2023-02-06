@@ -6,5 +6,6 @@ namespace PangeaAssignment.Validators
     {
         bool TryConvertToJson(string value, out InputModel? model);
         void ValidateInput(InputModel model);
+        void CheckIfInputsAreNull(InputModel model);
     }
 }

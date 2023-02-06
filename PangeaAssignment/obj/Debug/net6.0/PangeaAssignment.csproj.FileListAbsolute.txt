@@ -42,3 +42,47 @@ C:\Users\Phoenix\source\repos\PangeaAssignment\PangeaAssignment\bin\Debug\net6.0
 C:\Users\Phoenix\source\repos\PangeaAssignment\PangeaAssignment\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
 C:\Users\Phoenix\source\repos\PangeaAssignment\PangeaAssignment\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
 C:\Users\Phoenix\source\repos\PangeaAssignment\PangeaAssignment\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Phoenix\Desktop\final assignment\PangeaAssignment\PangeaAssignment\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Phoenix\Desktop\final assignment\PangeaAssignment\PangeaAssignment\bin\Debug\net6.0\appsettings.json
+C:\Users\Phoenix\Desktop\final assignment\PangeaAssignment\PangeaAssignment\bin\Debug\net6.0\PangeaAssignment.exe
+C:\Users\Phoenix\Desktop\final assignment\PangeaAssignment\PangeaAssignment\bin\Debug\net6.0\PangeaAssignment.deps.json
+C:\Users\Phoenix\Desktop\final assignment\PangeaAssignment\PangeaAssignment\bin\Debug\net6.0\PangeaAssignment.runtimeconfig.json
+C:\Users\Phoenix\Desktop\final assignment\PangeaAssignment\PangeaAssignment\bin\Debug\net6.0\PangeaAssignment.dll
+C:\Users\Phoenix\Desktop\final assignment\PangeaAssignment\PangeaAssignment\bin\Debug\net6.0\PangeaAssignment.pdb
+C:\Users\Phoenix\Desktop\final assignment\PangeaAssignment\PangeaAssignment\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Phoenix\Desktop\final assignment\PangeaAssignment\PangeaAssignment\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Phoenix\Desktop\final assignment\PangeaAssignment\PangeaAssignment\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\Phoenix\Desktop\final assignment\PangeaAssignment\PangeaAssignment\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Phoenix\Desktop\final assignment\PangeaAssignment\PangeaAssignment\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Phoenix\Desktop\final assignment\PangeaAssignment\PangeaAssignment\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Phoenix\Desktop\final assignment\PangeaAssignment\PangeaAssignment\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Phoenix\Desktop\final assignment\PangeaAssignment\PangeaAssignment\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\Phoenix\Desktop\final assignment\PangeaAssignment\PangeaAssignment\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Phoenix\Desktop\final assignment\PangeaAssignment\PangeaAssignment\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\Phoenix\Desktop\final assignment\PangeaAssignment\PangeaAssignment\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Phoenix\Desktop\final assignment\PangeaAssignment\PangeaAssignment\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Phoenix\Desktop\final assignment\PangeaAssignment\PangeaAssignment\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Phoenix\Desktop\final assignment\PangeaAssignment\PangeaAssignment\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Phoenix\Desktop\final assignment\PangeaAssignment\PangeaAssignment\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Phoenix\Desktop\final assignment\PangeaAssignment\PangeaAssignment\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Phoenix\Desktop\final assignment\PangeaAssignment\PangeaAssignment\obj\Debug\net6.0\PangeaAssignment.csproj.AssemblyReference.cache
+C:\Users\Phoenix\Desktop\final assignment\PangeaAssignment\PangeaAssignment\obj\Debug\net6.0\PangeaAssignment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Phoenix\Desktop\final assignment\PangeaAssignment\PangeaAssignment\obj\Debug\net6.0\PangeaAssignment.AssemblyInfoInputs.cache
+C:\Users\Phoenix\Desktop\final assignment\PangeaAssignment\PangeaAssignment\obj\Debug\net6.0\PangeaAssignment.AssemblyInfo.cs
+C:\Users\Phoenix\Desktop\final assignment\PangeaAssignment\PangeaAssignment\obj\Debug\net6.0\PangeaAssignment.csproj.CoreCompileInputs.cache
+C:\Users\Phoenix\Desktop\final assignment\PangeaAssignment\PangeaAssignment\obj\Debug\net6.0\PangeaAssignment.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Phoenix\Desktop\final assignment\PangeaAssignment\PangeaAssignment\obj\Debug\net6.0\PangeaAssignment.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Phoenix\Desktop\final assignment\PangeaAssignment\PangeaAssignment\obj\Debug\net6.0\staticwebassets\msbuild.PangeaAssignment.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Phoenix\Desktop\final assignment\PangeaAssignment\PangeaAssignment\obj\Debug\net6.0\staticwebassets\msbuild.build.PangeaAssignment.props
+C:\Users\Phoenix\Desktop\final assignment\PangeaAssignment\PangeaAssignment\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.PangeaAssignment.props
+C:\Users\Phoenix\Desktop\final assignment\PangeaAssignment\PangeaAssignment\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.PangeaAssignment.props
+C:\Users\Phoenix\Desktop\final assignment\PangeaAssignment\PangeaAssignment\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Phoenix\Desktop\final assignment\PangeaAssignment\PangeaAssignment\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Phoenix\Desktop\final assignment\PangeaAssignment\PangeaAssignment\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Phoenix\Desktop\final assignment\PangeaAssignment\PangeaAssignment\obj\Debug\net6.0\scopedcss\bundle\PangeaAssignment.styles.css
+C:\Users\Phoenix\Desktop\final assignment\PangeaAssignment\PangeaAssignment\obj\Debug\net6.0\PangeaAssignment.csproj.CopyComplete
+C:\Users\Phoenix\Desktop\final assignment\PangeaAssignment\PangeaAssignment\obj\Debug\net6.0\PangeaAssignment.dll
+C:\Users\Phoenix\Desktop\final assignment\PangeaAssignment\PangeaAssignment\obj\Debug\net6.0\refint\PangeaAssignment.dll
+C:\Users\Phoenix\Desktop\final assignment\PangeaAssignment\PangeaAssignment\obj\Debug\net6.0\PangeaAssignment.pdb
+C:\Users\Phoenix\Desktop\final assignment\PangeaAssignment\PangeaAssignment\obj\Debug\net6.0\PangeaAssignment.genruntimeconfig.cache
+C:\Users\Phoenix\Desktop\final assignment\PangeaAssignment\PangeaAssignment\obj\Debug\net6.0\ref\PangeaAssignment.dll
